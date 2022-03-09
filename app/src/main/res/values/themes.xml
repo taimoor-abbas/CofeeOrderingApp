@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.CofeeOrderingApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#C3808080</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="CustomText">
+
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#10028C</item>
+        <item name="android:textStyle">italic</item>
+
+    </style>
+    <style name="CustomText2">
+
+    <item name="android:textSize">60sp</item>
+    <item name="android:textColor">#10028C</item>
+    <item name="android:textStyle">bold</item>
+
+</style>
+</resources>
